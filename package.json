@@ -4,6 +4,7 @@
   "private": true,
   "author": "Josh Comeau <me@joshwcomeau.com>",
   "dependencies": {
+    "eslint-config-wesbos": "^3.2.3",
     "new-component": "4.0.0",
     "prettier": "^2.6.2",
     "react": "18.2.0",
@@ -20,7 +21,8 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "wesbos"
     ]
   },
   "browserslist": {
